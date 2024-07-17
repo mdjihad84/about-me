@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'work sans';
+    src: url('./fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: 'work sans';
+}
+
+/* heder section */
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-title span {
+    color: green;
+}
+
+.header-mavigation {
+    word-spacing: 30px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.header-mavigation a {
+    text-decoration: none;
+}
+
+.moto-title {
+    background-color: green;
+    padding: 11px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* about section */
+.about-contain {
+    display: flex;
+    margin-top: 60px;
+}
+
+.about {
+    margin-left: 137px;
+    margin-top: 80px;
+}
+.about-description {
+    width: 422px;
+}
+.about-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.about-img {
+    width: 310px;
+    height: 330px;
+    border-radius: 6px;
+    margin-left: 150px;
+}
