@@ -61,16 +61,16 @@
     margin-left: 150px;
 }
 /* my skil */
-.skil-container {
+.skill-container {
     margin-left: 135px;
     margin-top: 50px;
     display: flex;
 }
-.skil-left {
+.skill-left {
     display: flex;
     gap: 10px;
 }
-.skil-card {
+.skill-card {
     border: 2px solid;
     width: 216px;
     height: 85px;
@@ -84,10 +84,10 @@
     margin-bottom: -10px;
     color: green;
 }
-.skil-right {
+.skill-right {
     margin-left: 100px;
 }
-.skil-title {
+.skill-title {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 40px;
@@ -96,23 +96,23 @@
 .cart-description {
     color: #444343;
 }
-.skil-column-1 {
+.skill-column-1 {
     background-color: bisque;
     width: 480px;
 }
-.skil-column-2 {
+.skill-column-2 {
     background-color: bisque;
     width: 480px;
 }
-.skil-column-3{
+.skill-column-3{
     background-color: bisque;
     width: 480px;
 }
-.skil-column-4 {
+.skill-column-4 {
     background-color: bisque;
     width: 480px;
 }
-.skil-description1{
+.skill-description1{
     width: 347px;
     color: white;
     background-color: black;
@@ -120,7 +120,7 @@
     border-radius: 3px;
     height: 25px
 }
-.skil-description2 {
+.skill-description2 {
     width: 120px;
     color: white;
     background-color: black;
@@ -128,7 +128,7 @@
     border-radius: 3px;
     height: 25px;
 }
-.skil-description3 {
+.skill-description3 {
     width: 205px;
     color: white;
     background-color: black;
@@ -136,7 +136,7 @@
     border-radius: 3px;
     height: 25px;
 }
-.skil-description4 {
+.skill-description4 {
     width: 120px;
     color: white;
     background-color: black;
@@ -144,15 +144,56 @@
     border-radius: 3px;
     height: 25px;
 }
-.skil-1 {
+.skill-1 {
     margin-left: 245px;
 }
-.skil-2{
+.skill-2{
     margin-left: 10px;
 }
-.skil-3 {
+.skill-3 {
     margin-left: 130px;
 }
-.skil-4 {
+.skill-4 {
     margin-left: 23px;
+}
+/* my service */
+.service-contain {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    margin-top: 100px;
+}
+.service-title {
+    font-size: 35px;
+    text-align: center;
+}
+.service-content {
+    border: 2px solid;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+}
+.service-img {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.service-sup-title {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: -7px;
+    margin-left: 20px;
+    color: green;
+}
+.service-description {
+    width: 323px;
+    margin-left: 20px;
+    color: #444343;
+}
+.service-btn {
+    width: 116px;
+    border-radius: 5px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: transparent;
 }
