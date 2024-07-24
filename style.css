@@ -11,65 +11,135 @@
 .header {
     display: flex;
     justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
 }
 
-.header-title span {
-    color: green;
+.header-left {
+    width: 133px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 8px;
+    text-align: center;
+    background-color: tomato;
+}
+
+.header-left:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+
+.header-left span {
+    color: black;
 }
 
 .header-mavigation {
-    word-spacing: 30px;
-    margin-top: 25px;
+    word-spacing: 36px;
+    margin-top: -12px;
     font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 110px;
+    text-align: center;
+    background-color: tomato;
+}
+
+ul li:hover {
+    background-color: lightseagreen;
+}
+ul li a {
+    color: black;
+}
+
+ul li a:hover {
+    color: black;
 }
 
 .header-mavigation a {
     text-decoration: none;
+    color: white;
 }
 
 .moto-title {
-    background-color: green;
-    padding: 11px;
-    border-radius: 5px;
+    width: 110px;
+    padding: 13px;
     color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 9px;
+    text-align: center;
+    background-color: tomato;
+}
+
+.moto-title:hover {
+    background-color: lightseagreen;
+    color: black;
 }
 
 /* about section */
 .about-contain {
     display: flex;
-    margin-top: 60px;
+    margin-top: 100px;
+    background-color: honeydew;
 }
 
 .about {
     margin-left: 137px;
     margin-top: 80px;
 }
+
+.about-title span {
+    color: deeppink;
+}
+
 .about-description {
     width: 422px;
 }
+
 .about-btn {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: green;
+    background-color: black;
     color: white;
+    cursor: pointer;
 }
+
+.about-btn:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+
 .about-img {
-    width: 310px;
-    height: 330px;
+    width: 358px;
+    height: 366px;
     border-radius: 6px;
-    margin-left: 150px;
+    margin-left: 160px;
+    background-size: cover;
 }
+
 /* my skil */
 .skill-container {
     margin-left: 135px;
-    margin-top: 50px;
+    margin-top: 140px;
     display: flex;
 }
+
 .skill-left {
     display: flex;
     gap: 10px;
 }
+
 .skill-card {
     border: 2px solid;
     width: 216px;
@@ -78,15 +148,23 @@
     margin-top: 10px;
     text-align: center;
 }
+
+.skill-card:hover {
+    border-color: tomato;
+    border: 5px solid;
+}
+
 .cart-title {
     font-size: 25px;
     margin-top: 13px;
     margin-bottom: -10px;
     color: green;
 }
+
 .skill-right {
     margin-left: 100px;
 }
+
 .skill-title {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -96,30 +174,36 @@
 .cart-description {
     color: #444343;
 }
+
 .skill-column-1 {
     background-color: bisque;
-    width: 480px;
+    width: 490px;
 }
+
 .skill-column-2 {
     background-color: bisque;
-    width: 480px;
+    width: 490px;
 }
+
 .skill-column-3{
     background-color: bisque;
-    width: 480px;
+    width: 490px;
 }
+
 .skill-column-4 {
     background-color: bisque;
-    width: 480px;
+    width: 490px;
 }
+
 .skill-description1{
-    width: 347px;
+    width: 360px;
     color: white;
     background-color: black;
     font-size: 14px;
     border-radius: 3px;
     height: 25px
 }
+
 .skill-description2 {
     width: 120px;
     color: white;
@@ -128,6 +212,7 @@
     border-radius: 3px;
     height: 25px;
 }
+
 .skill-description3 {
     width: 205px;
     color: white;
@@ -136,6 +221,7 @@
     border-radius: 3px;
     height: 25px;
 }
+
 .skill-description4 {
     width: 120px;
     color: white;
@@ -144,56 +230,156 @@
     border-radius: 3px;
     height: 25px;
 }
+
 .skill-1 {
-    margin-left: 245px;
+    margin-left: 258px;
 }
+
 .skill-2{
     margin-left: 10px;
 }
+
 .skill-3 {
     margin-left: 130px;
 }
+
 .skill-4 {
     margin-left: 23px;
 }
+
 /* my service */
 .service-contain {
     display: flex;
     justify-content: center;
     gap: 85px;
+    margin-top: 60px;
+}
+
+.service-title {
+    font-size: 40px;
+    text-align: center;
     margin-top: 100px;
 }
-.service-title {
-    font-size: 35px;
-    text-align: center;
-}
+
 .service-content {
-    border: 2px solid;
+    border: 3px solid;
     width: 350px;
-    height: 210px;
+    height: 235px;
     border-radius: 5px;
+}
+
+.service-content:hover {
+    border: 3px solid;
+    border-color: lightseagreen;
 }
 .service-img {
     width: 50px;
     margin-left: 20px;
     margin-top: 10px;
 }
+
 .service-sup-title {
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 10px;
     margin-bottom: -7px;
     margin-left: 20px;
+}
+
+.service-award {
+    margin-bottom: -5px;
+    margin-top: 9px;
+    margin-left: 20px;
     color: green;
 }
+
 .service-description {
     width: 323px;
     margin-left: 20px;
     color: #444343;
 }
+
 .service-btn {
-    width: 116px;
-    border-radius: 5px;
+    width: 127px;
+    border: 3px solid;
+    border-radius: 3px;
     height: 38px;
     margin-left: 20px;
+    cursor: pointer;
     background-color: transparent;
+}
+
+.service-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* contact section */
+.contact {
+    display: flex;
+    margin-left: 136px;
+    margin-top: 65px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: -30px;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-right {
+    margin-left: 100px;
+}
+
+.contact-input {
+    width: 300px;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.contact-right form textarea {
+    width: 300px;
+    height: 65px;
+}
+
+.contact-label:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+
+.contact-checkbox {
+    margin-top: 10px;
+}
+
+.contact-label {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.contact-label input {
+    cursor: pointer;
+}
+/* footer section */
+.footer {
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: black;
+
+}
+.footer-left {
+    word-spacing: 119px;
+}
+.footer-left ul li {
+    margin-top: 30px;
 }
