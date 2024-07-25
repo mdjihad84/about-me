@@ -6,7 +6,7 @@
     <title>lightseagreen</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/jihad.jpg" type="image/x-icon">
-
+    <script src="https://kit.fontawesome.com/e23da33a86.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header section -->
@@ -15,11 +15,11 @@
             <h2 class="header-left">MD<span>JIHAD</span></h2>
         </div>
         <div class="header-mavigation">
-            <ul>
+            <ul class="navigation">
                 <li><a href="#">About</a></li>
                 <li><a href="#">service</a></li>
                 <li><a href="#">fortfolio</a></li>
-                <li><a href="#">contact</a></li
+                <li><a href="#">contact</a></li>
             </ul>
         </div>
         <div class="header-moto">
@@ -30,7 +30,7 @@
     <section class="about-contain">
         <div class="about">
             <h2 class="about-title">HI I'M<br>JAHIDUL ISLAM <span>JIHAD</span></h2>
-            <p class="about-description">Im a font end developer who spossionatIm a font end developer who spossionatIm a font end developer who spossionat </p>
+            <p class="about-description">Im div font end developer who spossionatIm div font end developer who spossionatIm div font end developer who spossionat </p>
             <button class="about-btn">MORE ABOUT ME</button>
         </div>
         <div class="about-right">
@@ -82,7 +82,7 @@
             </div>
             <div class="">
                 <div class="skill-column-4">
-                    <P class="skill-description4">BOOTSAP <span class="skill-4">10%</span></P>
+                    <P class="skill-description4">BOOTSTAP <span class="skill-4">10%</span></P>
                 </div>
             </div>
         </div>
@@ -123,12 +123,17 @@
         </div>
         <div class="contact">
             <div class="contact-left">
-                <p>Dhaka,kishoregonj</p>
-                <p>jahidul@gmail.com</p>
-                <p>+8801734567291</p>
-                <img src="./images/ribon.png" alt="">
-                <img src="./images/customers.png" alt="">
-                <img src="./images/youtube icon.svg" alt="">
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Dhaka,kishoregonj</li>
+                    <li><i class="fa-solid fa-check"></i>jahidul@gmail.com</li>
+                    <li><i class="fa-solid fa-check"></i>+8801734567291</li>
+                </ul>
+                <img src="./images/location.png" alt="" class="contact-location">
+                <div class="contact-icon">
+                    <img src="./images/youtube.png" alt="">
+                    <img src="./images/twitter.png" alt="">
+                    <img src="./images/facebook.png" alt="">
+                </div>
             </div>
             <div class="contact-right">
                 <form action="" class="contact-form">
@@ -150,15 +155,45 @@
     </section>
     <!-- footer section -->
     <footer class="footer">
-        <div class="footer-left">
-            <ul>
-                <li><a href=""></a>Youtube</li>
-                <li><a href=""></a>Twitter</li>
-                <li><a href=""></a>Fecebook</li>
-                <li><a href=""></a>Github</li>
-                <li><a href=""></a>Instragrame</li>
-                <li><a href=""></a>wekipedia</li>
-            </ul>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h4 class="title">KELECTRIX DESIGN</h4>
+                    <p class="footer-ds">Lorem ipsum dolor sit amet adipisicing elit. Quasi, nemo?</p>
+                 </div>
+                 <div class="footer-cart">
+                    <div class="title">Download</div>
+                    <a href="">Windows app</a>
+                    <a href="">mac app</a>
+                    <a href="">desktop app</a>
+                    <a href="">device</a>
+                    <div class="title">service</div>
+                    <a href="">Development</a>
+                    <a href="">Download</a>
+                 </div>
+                 <div class="footer-cart">
+                    <div class="title">Product</div>
+                    <a href="">Web</a>
+                    <a href="">App</a>
+                    <a href="">Softwere</a>
+                    <a href="">E-commerce</a>
+                    <div class="title">Company</div>
+                    <a href="">Terms & condition</a>
+                    <a href="">Privacy policy</a>
+                 </div>
+                 <div class="footer-right">
+                     <h4 class="title">Get in touch</h4>
+                     <img src="./images/youtube.png" alt="" class="footer-icon">
+                     <img src="./images/twitter.png" alt="" class="footer-icon">
+                     <img src="./images/facebook.png" alt="" class="footer-icon">
+                     <form action="">
+                         <input type="email" placeholder="Enter your email" class="email">
+                         <button class="footer-btn">Subscribe</button>
+                     </form>
+                 </div>
+            </div>
+            <div class="footer-margin"></div>
+            <p class="footer-bottom">@2024 Glossy, All right Reserved</p>
         </div>
     </footer>
 </body>
