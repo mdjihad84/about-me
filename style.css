@@ -25,7 +25,7 @@
     border-radius: 5px;
     margin-top: 8px;
     text-align: center;
-    background-color: tomato;
+    background-color: lightcoral;
 }
 
 .header-left:hover {
@@ -78,7 +78,7 @@
     border-radius: 5px;
     margin-top: 9px;
     text-align: center;
-    background-color: tomato;
+    background-color: lightcoral;
 }
 
 .moto-title:hover {
@@ -130,7 +130,7 @@
 
 /* my skil */
 .skill-container {
-    margin-left: 135px;
+    margin-left: 170px;
     margin-top: 140px;
     display: flex;
 }
@@ -253,6 +253,7 @@
     justify-content: center;
     gap: 85px;
     margin-top: 60px;
+    margin-left: 85px;
 }
 
 .service-title {
@@ -265,6 +266,7 @@
     border: 3px solid;
     width: 350px;
     height: 235px;
+    background-color: floralwhite;
     border-radius: 5px;
 }
 
@@ -273,11 +275,15 @@
     border-color: lightseagreen;
 }
 .service-img {
+    width: 94px;
+    margin-bottom: -7px;
+    margin-left: 0px;
+}
+.service-icon {
     width: 50px;
     margin-left: 20px;
     margin-top: 10px;
 }
-
 .service-sup-title {
     font-size: 15px;
     margin-top: 10px;
@@ -312,6 +318,37 @@
     background-color: black;
     color: white;
 }
+/* brand section */
+.brand-title {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+/* My fortfolio */
+
+.fortfolio-container {
+    text-align: center;
+}
+
+.fortfolio-img {
+    width: 400px;
+}
+
+.black-book {
+    height: 251px;
+}
+
+.pen-book {
+    height: 251px;
+}
+
+.icon {
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
 /* contact section */
 .contact {
@@ -333,6 +370,9 @@
     list-style: none;
     line-height: 40px;
 }
+.contact-left ul {
+    margin-left: -35px;
+}
 
 .contact-form label {
     display: block;
@@ -347,10 +387,10 @@
     height: 34px;
     border-radius: 18px;
     margin-bottom: 20px;
-    background-color: cornsilk;
 }
 .contact-location {
     width: 400px;
+    border-radius: 8px;
 }
 .contact-icon {
     margin-top: 16px;
@@ -358,7 +398,7 @@
 .contact-right form textarea {
     width: 325px;
     height: 65px;
-    background-color: cornsilk;
+    margin-bottom: 10px;
 }
 
 .contact-label:hover {
@@ -373,17 +413,18 @@
 .contact-label {
     background-color: black;
     color: white;
-    padding: 6px;
-    border-radius: 5px;
-    margin-top: 8px;
+    padding: 14px;
+    border-radius: 10px;
+    margin-top: -9px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .contact-label input {
     cursor: pointer;
 }
 /* footer section */
-.footer {
+.footer-container {
     width: 100%;
     padding: 25px;
     margin-top: 48px;
@@ -413,10 +454,10 @@
     margin-bottom: 25px;
     font-weight: 100;
 }
-.email {
+.footer-email {
     padding: 12px;
     border-radius: 18px;
-    width: 175px;
+    width: 185px;
 }
 .footer-left {
     margin-top: 90px;
@@ -425,8 +466,10 @@
     margin-top: -22px;
 }
 .footer-icon {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 30px;
+    margin-right: 15px;
+    cursor: pointer;
 }
 .footer-btn {
     padding: 12px;
