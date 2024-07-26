@@ -20,16 +20,16 @@
 .header-left {
     width: 133px;
     padding: 10px;
-    color: white;
+    color: deeppink;
     font-size: 20px;
     border-radius: 5px;
     margin-top: 8px;
     text-align: center;
-    background-color: lightcoral;
+    background-color: aqua;
 }
 
 .header-left:hover {
-    background-color: lightseagreen;
+    background-color: lightsalmon;
     color: black;
 }
 
@@ -55,14 +55,14 @@
 }
 
 .navigation li:hover {
-    background-color: lightseagreen;
+    background-color: lightsalmon;
 }
 .navigation li a {
     color: black;
 }
 
 .navigation li a:hover {
-    color: black;
+    color: white;
 }
 
 .header-mavigation a {
@@ -73,16 +73,16 @@
 .moto-title {
     width: 110px;
     padding: 13px;
-    color: white;
+    color: black;
     font-size: 14px;
     border-radius: 5px;
     margin-top: 9px;
     text-align: center;
-    background-color: lightcoral;
+    background-color: aqua;
 }
 
 .moto-title:hover {
-    background-color: lightseagreen;
+    background-color: lightsalmon;
     color: black;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .about-btn:hover {
-    background-color: lightseagreen;
+    background-color: lightsalmon;
     color: black;
 }
 
@@ -335,6 +335,11 @@
 .fortfolio-img {
     width: 400px;
 }
+.fortfolio-img1 {
+    margin-left: 0px;
+    height: 251px;
+    width: 400px;
+}
 
 .black-book {
     height: 251px;
@@ -342,12 +347,6 @@
 
 .pen-book {
     height: 251px;
-}
-
-.icon {
-    width: 50px;
-    margin-right: 10px;
-    margin-top: 10px;
 }
 
 /* contact section */
@@ -392,6 +391,14 @@
     width: 400px;
     border-radius: 8px;
 }
+
+.icon {
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 .contact-icon {
     margin-top: 16px;
 }
