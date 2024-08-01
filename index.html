@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My fortfolio</title>
+    <title>fortfolio website</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./images/jihad.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/portfolio-7.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e23da33a86.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header section -->
-    <header class="header">
+    <header id="header" class="header">
         <div class="title">
             <h2 class="header-left">MD<span>JIHAD</span></h2>
         </div>
         <div class="header-mavigation">
             <ul class="navigation">
-                <li><a href="#">About</a></li>
-                <li><a href="#">service</a></li>
-                <li><a href="#">fortfolio</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#header">About</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#portfolio">fortfolio</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </div>
-        <div class="header-moto">
-            <h4 class="moto-title">HIRE ME</h4>
+        <div class="title">
+            <h4 class="header-right">HIRE ME</h4>
         </div>
     </header>
     <!-- about section -->
     <section class="about-contain">
         <div class="about">
             <h2 class="about-title">HI I'M<br>JAHIDUL ISLAM <span>JIHAD</span></h2>
-            <p class="about-description">Im font end developer who spossionat Im div font end developer who spossionat Im font end developer who spossionat </p>
+            <p class="about-description">
+                Im font end developer who spossionat Im div font end developer who spossionat Im font end developer who spossionat 
+            </p>
             <button class="about-btn">MORE ABOUT ME</button>
         </div>
         <div class="about-right">
@@ -40,7 +42,7 @@
     <!-- my skill -->
     <section class="skill-container">
         <div class="skill-left">
-            <div class="">
+            <div class="skil-carts">
                 <div class="skill-card">
                     <h4 class="cart-title">3+</h4>
                     <p class="cart-description">Month of experience</p>
@@ -50,7 +52,7 @@
                     <p class="cart-description">Happy customer</p>
                 </div>
             </div>
-            <div class="">
+            <div class="skil-carts">
                 <div class="skill-card ">
                     <h4 class="cart-title">0+</h4>
                     <p class="cart-description">years of experience</p>
@@ -62,33 +64,25 @@
             </div>
         </div>
         <div class="skill-right">
-            <div class="">
-                <h2 class="skill-title">My skil</h2>
+            <div class="skill-title">
+                <h2>My skil</h2>
             </div>
-            <div class="">
-                <div class="skill-column-1">
-                    <p class="skill-description1">HTML/CSS<span class="skill-1">70%</span></p>
-                </div>
+            <div class="skill-column">
+                <p class="skill-description1">HTML/CSS<span class="skill-1">70%</span></p>
             </div>
-            <div class="">
-                <div class="skill-column-2">
-                    <P class="skill-description2">JAVASCRIPT<span class="skill-2">10%</span></P>
-                </div>
+            <div class="skill-column">
+                <P class="skill-description2">JAVASCRIPT<span class="skill-2">10%</span></P>
             </div>
-            <div class="">
-                <div class="skill-column-3">
-                    <P class="skill-description3">FIGMA<span class="skill-3">40%</span></P>
-                </div>
+            <div class="skill-column">
+                <P class="skill-description3">FIGMA<span class="skill-3">40%</span></P>
             </div>
-            <div class="">
-                <div class="skill-column-4">
-                    <P class="skill-description4">BOOTSTAP <span class="skill-4">10%</span></P>
-                </div>
+            <div class="skill-column">
+                <P class="skill-description4">BOOTSTAP <span class="skill-4">10%</span></P>
             </div>
         </div>
     </section>
     <!-- My service -->
-    <section class="service-container">
+    <section id="service" class="service-container">
         <div class="">
             <h2 class="service-title">My service</h2>
         </div>
@@ -101,9 +95,9 @@
                 <button class="service-btn">Learn more</button>
             </div>
             <div class="service-content">
-                <img src="./images/download (1).png" alt="" class="service-img">
+                <img src="./images/download(1).png" alt="" class="service-img">
                 <h5 class="service-sup-title">Web developer</h5>
-                <h3 class="service-award">Bootstap developer</h3>
+                <h3 class="service-award">Bootstrap developer</h3>
                 <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ullam eius</p>
                 <button class="service-btn">Learn more</button>
             </div>
@@ -116,35 +110,26 @@
             </div>
         </div>
     </section>
-    <!-- Brand section -->
-    <section>
-        <div class="">
-            <h2 class="brand-title">WE WORKED WITH GLOBAL LARGEST BRANDS</h2>
-            <div class="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+    <!-- my portfolio -->
+    <section id="portfolio" class="fortfolio-container">
+        <div class="portfolio-title">
+            <h2>My Portfolio</h2>
+        </div>
+        <div class="fortfolio-content">
+            <div class="content-left">
+                <img src="./images/portfolio-10.jpg" alt="" class="fortfolio-img">
+                <img src="./images/portfolio-2.jpg" alt="" class="fortfolio-img">
+                <img src="./images/portfolio-3.jpg" alt="" class="fortfolio-img">
+            </div>
+            <div class="content-right">
+                <img src="./images/portfolio-4.jpg" alt="" class="fortfolio-img">
+                <img src="./images/portfolio-7.jpg" alt="" class="fortfolio-img">
+                <img src="./images/portfolio-8.jpg" alt="" class="fortfolio-img">
             </div>
         </div>
     </section>
-    <!-- my portfolio -->
-    <section class="fortfolio-container">
-        <div class="">
-            <img src="./images/laptop.jpeg" alt="" class="fortfolio-img">
-            <img src="./images/black book.jpg" alt="" class="black-book">
-            <img src="./images/pen.jpg" alt="" class="pen-book">
-        </div>
-        <div class="">
-            <img src="./images/black book.jpeg" alt="" class="fortfolio-img1">
-            <img src="./images/black book.jpg" alt="" class="black-book">
-            <img src="./images/pen.jpg" alt="" class="pen-book">
-        </div>
-    </section>
     <!-- contact section -->
-    <section class="">
+    <section id="contact" class="container">
         <div class="">
             <h2 class="contact-title">Contact</h2>
         </div>
@@ -159,23 +144,23 @@
                 <div class="contact-icon">
                     <img src="./images/youtube1.png" alt="" class="icon">
                     <img src="./images/twitter1.png" alt="" class="icon">
-                    <img src="./images/facebook (1).jpeg" alt="" class="icon">
+                    <img src="./images/facebook(1).jpeg" alt="" class="icon">
                 </div>
             </div>
             <div class="contact-right">
-                <form action="" class="contact-form">
-                    <label for="">Your name</label>
-                    <input type="text" placeholder="Enter your name" class="contact-input">
-                    <label for="">Your email</label>
-                    <input type="email" placeholder="Enter your email" class="contact-input">
-                    <label for="">Your phone</label>
-                    <input type="number" placeholder="Enter your phone" class="contact-input">
-                    <label for="">Your message (optional)</label>
+                <form id="form" action="/">
+                    <label id="name">Your name</label>
+                    <input id="your-name" placeholder="Enter your name">
+                    <label id="your-email">Your email</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email">
+                    <label id="phone">Your phone</label>
+                    <input type="number" placeholder="Enter your phone">
+                    <label id="message">Your message (optional)</label>
                     <textarea placeholder="Enter your message"></textarea>
                 </form>
-                <form action="" class="contact-checkbox">
-                    <label for="" class="contact-label">send massage</label>
-                    <input type="checkbox">
+                <form action="/">
+                    <label id="your-message">send massage</label>
+                    <input type="checkbox" class="checkbox">
                 </form>
             </div>
         </div>
@@ -187,8 +172,8 @@
                 <div class="footer-left">
                     <h4 class="title">KELECTRIX DESIGN</h4>
                     <p class="footer-ds">Lorem ipsum dolor sit amet adipisicing elit. Quasi, nemo?</p>
-                 </div>
-                 <div class="footer-cart">
+                </div>
+                <div class="footer-cart">
                     <div class="title">Download</div>
                     <a href="#">Windows app</a>
                     <a href="#">mac app</a>
@@ -197,8 +182,8 @@
                     <div class="title">service</div>
                     <a href="#">Development</a>
                     <a href="#">Download</a>
-                 </div>
-                 <div class="footer-cart">
+                </div>
+                <div class="footer-cart">
                     <div class="title">Product</div>
                     <a href="#">Web</a>
                     <a href="#">App</a>
@@ -207,17 +192,17 @@
                     <div class="title">Company</div>
                     <a href="#">Terms & condition</a>
                     <a href="#">Privacy policy</a>
-                 </div>
-                 <div class="footer-right">
-                     <h4 class="title">Get in touch</h4>
-                     <img src="./images/youtube.png" alt="" class="footer-icon">
-                     <img src="./images/twitter.png" alt="" class="footer-icon">
-                     <img src="./images/facebook.png" alt="" class="footer-icon">
-                     <form action="">
-                         <input type="email" placeholder="Enter your email" class="footer-email">
-                         <button class="footer-btn">Subscribe</button>
-                     </form>
-                 </div>
+                </div>
+                <div class="footer-right">
+                    <h4 class="title">Get in touch</h4>
+                    <img src="./images/youtube.png" alt="" class="footer-icon">
+                    <img src="./images/twitter.png" alt="" class="footer-icon">
+                    <img src="./images/facebook.png" alt="" class="footer-icon">
+                    <form action="/">
+                        <input type="email" placeholder="Enter your email" class="footer-email">
+                        <button class="footer-btn">Subscribe</button>
+                    </form>
+                </div>
             </div>
             <div class="footer-margin"></div>
             <p class="footer-bottom">@2024 Glossy, All right Reserved</p>
