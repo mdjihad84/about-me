@@ -16,7 +16,7 @@
     height: 60px;
     border-radius: 10px;
 }
-.header-left {
+.header-left h2{
     width: 133px;
     padding: 10px;
     color: deeppink;
@@ -61,13 +61,13 @@
     text-decoration: none;
     color: white;
 }
-.header-right {
+.header-right h4{
     width: 110px;
     padding: 13px;
     color: black;
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 5px;
-    margin-top: 9px;
+    margin-top: 8px;
     text-align: center;
     background-color: aqua;
 }
@@ -149,7 +149,7 @@
     margin-bottom: 0px;
     font-size: 40px;
 }
-.cart-description {
+.skill-card p {
     color: #444343;
 }
 .skill-column {
@@ -181,7 +181,7 @@
     border-radius: 3px;
 }
 .skill-description4 {
-    width: 110px;
+    width: 138px;
     padding: 5px;
     color: white;
     background-color: black;
@@ -198,19 +198,20 @@
     margin-left: 140px;
 }
 .skill-4 {
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 /* my service */
 .service-contain {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
 }
-.service-title {
+.service-title h2 {
     font-size: 40px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 .service-content {
     width: 350px;
@@ -240,7 +241,6 @@
     margin-bottom: -7px;
     margin-left: 20px;
     color: teal;
-
 }
 .service-award {
     margin-bottom: -5px;
@@ -272,16 +272,22 @@
 /* My fortfolio */
 .fortfolio-content {
     text-align: center;
+    margin-left: 27px;
     margin-top: 70px;
 }
 .portfolio-title h2 {
     font-size: 40px;
     text-align: center;
+    margin-left: 50px;
     margin-top: 100px;
     margin-bottom: -18px;
 }
 .fortfolio-img {
     width: 400px;
+}
+.fortfolio-img:hover {
+    border: 3px solid;
+    border-color: black;
 }
 
 /* contact section */
@@ -290,7 +296,7 @@
     margin-left: 365px;
     margin-top: 65px;
 }
-.contact-title {
+.contact-title h2{
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
@@ -335,7 +341,7 @@ form input {
 .contact-location:hover {
    border: 2px solid black;
 }
-.icon {
+.social-icon {
     width: 50px;
     margin-right: 10px;
     margin-top: 10px;
@@ -399,7 +405,7 @@ form input {
     justify-content: center;
     gap: 110px;
 }
-.footer-ds {
+.footer-left p {
     width: 306px;
     color: white;
 }
@@ -410,7 +416,7 @@ form input {
     text-decoration: none;
     display: block;
 }
-.title {
+.text-bold-normal {
     color: whitesmoke;
     font-size: 20px;
     margin-bottom: 25px;
@@ -419,7 +425,7 @@ form input {
 .footer-email {
     padding: 12px;
     border-radius: 18px;
-    width: 185px;
+    width: 200px;
 }
 .footer-left {
     margin-top: 90px;
@@ -450,180 +456,7 @@ form input {
     text-align: center;
     margin-top: 40px;
 }
-/* media quaris */
-@media only screen and (max-width: 640px){
 
-    .header {
-        justify-content: space-around;
-        background-color: black;
-        width: 112%;
-        height: 65px;
-        border-radius: 10px;
-    }
-    .header-left {
-        display: none;
-    }
-    .moto-title {
-        display: none;
-    }
-    .header-mavigation {
-        word-spacing: 9px;
-        margin-top: -12px;
-        font-size: 20px;
-        margin-left: -36px;
-        margin-right: 4px;
-    }
-    .navigation li {
-        list-style: none;
-        display: inline-block;
-        padding: 10px;
-        border-radius: 5px;
-        font-size: 14px;
-        width: 64px;
-        text-align: center;
-        background-color: aqua;
-    }
-    .about-contain {
-        display: flex;
-        margin-top: 35px;
-        margin-left: 35px;
-        margin-right: -26px;
-        flex-direction: column;
-    }
-    .about {
-        margin-left: 21px;
-        margin-top: 80px;
-    }
-    .about-img {
-        width: 385px;
-        height: 366px;
-        border-radius: 6px;
-        margin-left: 2px;
-        background-size: cover;
-        margin-top: 40px;        
-    }
-    .about-description {
-        width: 320px;
-        color: #444343;
-        font-size: 12px;
-    }
-    .skill-container {
-        margin-left: 203px;
-        margin-top: 62px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .skill-card {
-        border: 2px solid;
-        width: 184px;
-        height: 85px;
-        border-radius: 5px;
-        margin-top: 10px;
-        text-align: center;
-    }
-    .skill-left {
-        margin-left: -170px;
-        margin-top: 30px;
-        gap: 10px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .skill-right {
-        margin-left: -173px;
-    }
-    .skill-column-1 {
-        background-color: whitesmoke;
-        width: 400px;
-    }
-    .skill-column-2 {
-        background-color: whitesmoke;
-        width: 400px;
-    }
-    .skill-column-3 {
-        background-color: whitesmoke;
-        width: 400px;
-    }
-    .skill-column-4 {
-        background-color: whitesmoke;
-        width: 400px;
-    }
-    .skill-description1 {
-        width: 310px;
-        padding: 5px;
-        color: white;
-        background-color: black;
-        font-size: 13px;
-        border-radius: 3px;
-    }
-    .skil-1 {
-        margin-left: 218px;
-    }
-
-    .service-title {
-        font-size: 40px;
-        text-align: center;
-        margin-top: 100px;
-    }
-    .service-contain {
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        margin-left: 48px;
-        flex-direction: column;
-    }
-    .service-content {
-        width: 350px;
-        border-radius: 10px;
-        height: 335px;
-        text-align: center;
-        background-color: bisque;
-        border-top-right-radius: 80px;
-    }
-    .fortfolio-container {
-        text-align: center;
-        margin-top: 70px;
-        margin-left: 23px;
-    }
-    .fortfolio-img {
-        width: 400px;
-    }
-    .black-book {
-        height: 251px;
-        width: 398px;
-    }
-    .pen-book {
-        height: 251px;
-        width: 400px;
-    }
-    .contact {
-        display: flex;
-        margin-left: 40px;
-        margin-top: 42px;
-        flex-direction: column;
-    }
-    .contact-location {
-        width: 340px;
-        border-radius: 8px;
-        cursor: pointer;
-    }
-    .contact-right {
-        margin-left: 3px;
-        margin-top: 15px;
-    }
-    
-    .footer-content {
-        display: flex;
-        justify-content: center;
-        width: 129%;
-        height: 444px;
-        flex-direction: row-reverse;
-    }
-    .footer-margin {
-        width: 89%;
-        border: 1px solid white;
-        margin-left: 0px;
-    }
-}
 
 
 
